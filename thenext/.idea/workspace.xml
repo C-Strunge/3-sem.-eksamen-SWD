@@ -1,65 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8468ce72-361e-42fa-a719-bf0ed923066b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/CompanyController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/CustomerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/CompanyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/OfferRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/AdministratorController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/CourseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/HomeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/LoginController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/SearchController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/StudentCourseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/StudyProgrammeController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/TeacherController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/controller/WaitingListController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/helper/PasswordHasher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/helper/PasswordMatcher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/helper/SearchSpecification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/helper/SessionHelper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Administrator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/model/StudyProgramme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Offer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/model/Teacher.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mandatory/two/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/CourseRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/StudentRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/StudyProgrammeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/TeacherRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mandatory/two/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/createAdministrator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/createStudent.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/createStudyProgramme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/createTeacher.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/userCreateForm.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/viewStudyProgramme.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/waitingList.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/administrator/waitingListCourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/all/Login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/all/courseInfo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/all/forbidden.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/all/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/modalCourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/courseStudents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/searchAdvanced.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/student/searchResult.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/courses.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/createCourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/editCourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/formCourse.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/header.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/teacher/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="8468ce72-361e-42fa-a719-bf0ed923066b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +113,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="444559399">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FavoritesManager">
     <favorites_list name="two" />
@@ -180,7 +131,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/TwoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="105">
               <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -192,18 +143,9 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Offer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="252">
               <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
             </state>
           </provider>
@@ -212,7 +154,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="168">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
@@ -221,7 +163,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CompanyRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="210">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -233,7 +175,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="168">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -245,8 +187,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/OfferRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="231">
+              <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -262,7 +204,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
+            <state relative-caret-position="189">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -274,7 +216,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="294">
               <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
@@ -297,7 +239,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -398,71 +340,35 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
+              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
+              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
+              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
+              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="thenext" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="two" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -569,17 +475,17 @@
       <workItem from="1543576871416" duration="2722000" />
       <workItem from="1543580910505" duration="856000" />
       <workItem from="1543581968528" duration="353000" />
+      <workItem from="1543582903237" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46787000" />
+    <option name="totallyTimeSpent" value="47399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="896" extended-state="6" />
-    <editor active="true" />
+    <frame x="85" y="-8" width="1843" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.22603719" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.22826697" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -707,9 +613,10 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/TwoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="105">
           <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -719,30 +626,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Offer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="252">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="168">
           <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CompanyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="210">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -752,7 +652,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
+        <state relative-caret-position="168">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -765,7 +665,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
+        <state relative-caret-position="189">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -775,21 +675,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="294">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#488#489#0" expanded="true" />
-            <element signature="e#520#521#0" expanded="true" />
-            <element signature="e#575#576#0" expanded="true" />
-            <element signature="e#617#618#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/OfferRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="231">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
