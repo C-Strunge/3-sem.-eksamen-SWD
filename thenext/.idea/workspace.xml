@@ -365,9 +365,9 @@
   <component name="MavenRunner">
     <option name="jreName" value="11.0" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1440" />
-    <option name="height" value="896" />
+    <option name="height" value="897" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -522,8 +522,9 @@
       </method>
     </configuration>
     <configuration name="TwoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="thenext" />
+      <module name="two" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="mandatory.two.TwoApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
