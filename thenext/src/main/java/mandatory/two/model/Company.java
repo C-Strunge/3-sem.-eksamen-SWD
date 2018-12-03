@@ -14,15 +14,31 @@ public class Company extends User {
     @OneToMany
     private List<Offer> offerList;
     private String companyName;
-    private Integer CVR;
-    private String businessHours;
-    private Long accountInformation;
+    private Integer cvr;
+    private Long accountNumber;
+    private Integer registrationNumber;
 
     public Company() {
     }
 
     public List<Offer> getOfferList() {
         return offerList;
+    }
+
+    public Long getAccountNumber() {
+        return accountNumber;
+    }
+
+    public void setAccountNumber(Long accountNumber) {
+        this.accountNumber = accountNumber;
+    }
+
+    public Integer getRegistrationNumber() {
+        return registrationNumber;
+    }
+
+    public void setRegistrationNumber(Integer registrationNumber) {
+        this.registrationNumber = registrationNumber;
     }
 
     public void setOfferList(List<Offer> offerList) {
@@ -37,27 +53,12 @@ public class Company extends User {
         this.companyName = companyName;
     }
 
-    public Integer getCVR() {
-        return CVR;
+    public Integer getCvr() {
+        return cvr;
     }
 
-    public void setCVR(Integer CVR) {
-        this.CVR = CVR;
+    public void setCvr(Integer cvr) {
+        this.cvr = cvr;
     }
 
-    public String getBusinessHours() {
-        return businessHours;
-    }
-
-    public void setBusinessHours(String businessHours) {
-        this.businessHours = businessHours;
-    }
-
-    public Long getAccountInformation() {
-        return accountInformation;
-    }
-
-    public void setAccountInformation(Long accountInformation) {
-        this.accountInformation = accountInformation;
-    }
 }
