@@ -24,8 +24,8 @@
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputPassword4">Company CVR</label>
-                    <input th:field="${company.cvr}" type="number" class="form-control" id="inputPassword4" required="true"
-                           placeholder="CVR-number">
+                    <input th:field="${company.cvr}" type="text" class="form-control" id="inputPassword4" required="true"
+                           placeholder="CVR-number" pattern="[0-9]{8}" title="8 digits">
                 </div>
             </div>
             <div class="form-row">
@@ -43,8 +43,8 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputPassword4">Phone Number</label>
-                    <input th:field="${company.phoneNumber}" type="number" class="form-control" required="true"
-                           placeholder="Phone number">
+                    <input th:field="${company.phoneNumber}" type="text" class="form-control" required="true"
+                           placeholder="Phone number" pattern="[0-9]{5,18}" title="5 to 18 digits">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputAddress2">E-mail</label>
@@ -55,13 +55,13 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputPassword4">Account Number</label>
-                    <input th:field="${company.accountNumber}" type="number" class="form-control" required="true"
-                           placeholder="Account number">
+                    <input th:field="${company.accountNumber}" type="text" class="form-control" required="true"
+                           placeholder="Account number" pattern="[0-9]{10}" title="10 digits">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputAddress2">Registration Number</label>
-                    <input th:field="${company.registrationNumber}" type="number" class="form-control" id="inputAddress" required="true"
-                           placeholder="Reg number">
+                    <input th:field="${company.registrationNumber}" type="text" class="form-control" id="inputAddress" required="true"
+                           placeholder="Reg number" pattern="[0-9]{4}" title="4 digits">
                 </div>
             </div>
             <div class="form-row">
@@ -79,8 +79,8 @@
             <div class="form-row">
                 <div class="form-group col-md-6">
                     <label for="inputPassword4">Zip Code</label>
-                    <input th:field="${company.zipcode}" type="number" class="form-control" required="true"
-                           placeholder="Zip code">
+                    <input th:field="${company.zipcode}" type="text" class="form-control" required="true"
+                           placeholder="Zip code" pattern="[0-9]{4}" title="4 digits">
                 </div>
                 <div class="form-group col-md-6">
                     <label for="inputAddress2">Address</label>
