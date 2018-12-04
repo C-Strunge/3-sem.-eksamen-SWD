@@ -7,6 +7,7 @@ import javax.persistence.Id;
 
 /**
  * Created by Matthias Skou 30/11/2018
+ * Tester
  */
 
 @Entity
