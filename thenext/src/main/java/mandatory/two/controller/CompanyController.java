@@ -10,6 +10,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
+import java.util.ArrayList;
+
 /**
  * Created by Matthias Skou 30/11/2018
  */
@@ -32,8 +34,16 @@ public class CompanyController {
 
     @PostMapping("/company/create")
     public String createCompany(@ModelAttribute Company company){
-        companyRepo.save(company);
-        return "redirect:/company/create/category";
+        System.out.println(companyRepo.findAllByEmail("matt@matt.dk"));
+        System.out.println(companyRepo.findAllByEmail("ms@ms.dk"));
+        ArrayList<Company> companyArrayList = (ArrayList) companyRepo.findAllByEmail(company.getEmail());
+        if (companyArrayList.size() >= 1){
+            System.out.println("YO");
+        }else if(companyArrayList.size() == 0) {
+            companyRepo.save(company);
+        }
+        return "redirect:/company";
+
     }
 
 }
