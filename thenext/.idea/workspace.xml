@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8468ce72-361e-42fa-a719-bf0ed923066b" name="Default" comment="" />
+    <list default="true" id="8468ce72-361e-42fa-a719-bf0ed923066b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,18 +25,26 @@
     <expand />
     <select />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1480210963">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="two" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/TwoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            <state relative-caret-position="85">
+              <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
               <folding>
-                <element signature="imports" expanded="true" />
                 <element signature="e#595#596#0" expanded="true" />
                 <element signature="e#660#661#0" expanded="true" />
               </folding>
@@ -45,8 +55,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Offer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
+            <state relative-caret-position="306">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -54,7 +64,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="120">
               <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
             </state>
           </provider>
@@ -63,7 +73,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CompanyRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="170">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -72,19 +82,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
+            <state relative-caret-position="153">
               <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -96,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/OfferRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
+            <state relative-caret-position="187">
               <caret line="11" selection-start-line="11" selection-end-line="11" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,18 +107,14 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-            </state>
-          </provider>
+        <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Admin.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
+            <state relative-caret-position="153">
               <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -129,7 +126,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Company.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
+            <state relative-caret-position="238">
               <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
             </state>
           </provider>
@@ -200,11 +197,17 @@
       </list>
     </option>
   </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -217,10 +220,10 @@
     <option name="jreName" value="11.0" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1928" />
-    <option name="y" value="-16" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -255,29 +258,29 @@
           <expand>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -285,7 +288,7 @@
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -294,7 +297,7 @@
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -303,14 +306,23 @@
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="two" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="thenext" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TheNext" type="462c0819:PsiDirectoryNode" />
+              <item name="thenext" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -326,6 +338,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -335,10 +348,10 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543851842587" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543916324527" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -365,7 +378,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="Applet">
+    <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HEIGHT" value="0" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <option name="WIDTH" value="0" />
@@ -390,12 +403,12 @@
       <module name="two" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="mandatory.two.TwoApplication" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="ALTERNATIVE_JRE_PATH" value="11.0" />
+      <option name="ALTERNATIVE_JRE_PATH" value="C:/Program Files/Java/jdk-11.0.1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -404,11 +417,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file enabled="true" id="idea.log" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -444,13 +457,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58034000" />
+    <option name="totallyTimeSpent" value="58239000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.24413647" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.22550336" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -460,7 +473,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34777898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" weight="0.34844193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39951575" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -570,7 +583,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CompanyRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="170">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -580,7 +593,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/CustomerRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
+        <state relative-caret-position="153">
           <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -588,42 +601,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/TwoApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#660#661#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="33" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Offer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/repository/OfferRepository.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
+        <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -633,7 +616,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
+        <state relative-caret-position="153">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -660,22 +643,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Company.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
+        <state relative-caret-position="238">
           <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="55" selection-start-line="1" selection-start-column="55" selection-end-line="1" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/createCompany.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1566">
           <caret line="87" column="62" lean-forward="true" selection-start-line="87" selection-start-column="62" selection-end-line="87" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/model/Offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/mandatory/two/TwoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="69" lean-forward="true" selection-start-line="5" selection-start-column="69" selection-end-line="5" selection-end-column="69" />
+          <folding>
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -719,7 +721,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>11.0</last-edited>
+          <last-edited>11</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -736,7 +738,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
