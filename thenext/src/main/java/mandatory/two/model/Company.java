@@ -1,6 +1,7 @@
 package mandatory.two.model;
 
 import javax.persistence.Entity;
+import javax.persistence.ManyToMany;
 import javax.persistence.OneToMany;
 import java.util.List;
 
@@ -17,6 +18,8 @@ public class Company extends User {
     private Integer cvr;
     private Long accountNumber;
     private Integer registrationNumber;
+    @ManyToMany
+    private List<Category> categoryList;
 
     public Company() {
     }
@@ -61,4 +64,11 @@ public class Company extends User {
         this.cvr = cvr;
     }
 
+    public List<Category> getCategoryList() {
+        return categoryList;
+    }
+
+    public void setCategoryList(List<Category> categoryList) {
+        this.categoryList = categoryList;
+    }
 }
