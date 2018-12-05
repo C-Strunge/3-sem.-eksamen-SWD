@@ -14,6 +14,6 @@ public interface CustomerRepository extends CrudRepository<Customer, Long> {
 
     Customer findByEmail(String email);
     List<Company> findAllByEmail(String s);
-    Customer findTopByOrderById();
+    Customer findTopByOrderByIdDesc();
 
 }

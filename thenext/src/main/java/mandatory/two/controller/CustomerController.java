@@ -10,9 +10,11 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.ArrayList;
+import java.util.Optional;
 
 /**
  * Created by Matthias Skou 30/11/2018
@@ -45,14 +47,48 @@ public class CustomerController {
 
     @GetMapping("/customer/create/payment")
     public String createCustomerPayment(Model model){
-        model.addAttribute(customerRepo.findTopByOrderById());
+        Customer c = customerRepo.findTopByOrderByIdDesc();
+        System.out.println("C ID: " + c.getId());
+        model.addAttribute("customer", c);
+        System.out.println("GET ID: " + customerRepo.findTopByOrderByIdDesc().getId());
         return "customer/createCustomerPayment";
     }
 
     @PostMapping("/customer/create/payment")
     public String createCustomerPayment(@ModelAttribute Customer customer){
+        System.out.println();
         customerRepo.save(customer);
         return "";
     }
 
+    @GetMapping("/customer/edit/{id}")
+    public String editCustomer(@PathVariable Long id, Model model){
+        Optional<Customer> customerOptional = customerRepo.findById(id);
+        Customer customer = customerOptional.get();
+        customer.setId(id);
+        model.addAttribute("category", categoryRepo.findAll());
+        model.addAttribute("customer", customer);
+        return "customer/editCustomer";
+    }
+
+    @PostMapping("/customer/edit")
+    public String editCustomer(@ModelAttribute Customer customer){
+        customerRepo.save(customer);
+        return "";
+    }
+
+    @GetMapping("/customer/edit/payment/{id}")
+    public String editCustomerPayment(@PathVariable Long id, Model model){
+        Optional<Customer> customerOptional = customerRepo.findById(id);
+        Customer customer = customerOptional.get();
+        customer.setId(id);
+        model.addAttribute("customer", customer);
+        return "customer/editCustomerPayment";
+    }
+
+    @PostMapping("/customer/edit/payment")
+    public String editCustomerPayment(@ModelAttribute Customer customer){
+        customerRepo.save(customer);
+        return "";
+    }
 }
