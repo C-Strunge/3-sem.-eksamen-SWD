@@ -1,6 +1,8 @@
 package mandatory.two.controller;
 
+import mandatory.two.helper.CreateHelper;
 import mandatory.two.model.Company;
+import mandatory.two.model.User;
 import mandatory.two.repository.CategoryRepository;
 import mandatory.two.repository.CompanyRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,17 +25,17 @@ public class CompanyController {
     @Autowired
     private CategoryRepository categoryRepo;
 
-
     @GetMapping("/company/create")
     public String createCompany(Model model){
         model.addAttribute("company", new Company());
         model.addAttribute("category", categoryRepo.findAll());
-        return "createCompany";
+        return "company/createCompany";
     }
 
     @PostMapping("/company/create")
     public String createCompany(@ModelAttribute Company company){
-        if (checkIfEmailExists(company.getEmail())){
+        ArrayList<User> companyArrayList = (ArrayList) companyRepo.findAllByEmail(company.getEmail());
+        if (CreateHelper.checkIfEmailExists(companyArrayList)){
             companyRepo.save(company);
         }
         // Insert else statement that redirects to company/create
@@ -48,7 +50,7 @@ public class CompanyController {
         c.setId(id);
         model.addAttribute("category", categoryRepo.findAll());
         model.addAttribute("company", c);
-        return "editCompany";
+        return "company/editCompany";
     }
 
     @PostMapping("/company/edit")
@@ -58,15 +60,6 @@ public class CompanyController {
         System.out.println(company.getFirstName());
             companyRepo.save(company);
         return "";
-    }
-
-    public boolean checkIfEmailExists(String email){
-        ArrayList<Company> companyArrayList = (ArrayList) companyRepo.findAllByEmail(email);
-        if (companyArrayList.size() >= 1){
-            return false;
-        } else {
-            return true;
-        }
     }
 
 }
