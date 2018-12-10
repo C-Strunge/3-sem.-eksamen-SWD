@@ -8,6 +8,7 @@ import mandatory.two.model.User;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
+//naskd
 public class SessionHelper {
 
     public static boolean isSessionValid(HttpServletRequest request) {
