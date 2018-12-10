@@ -16,7 +16,7 @@ import java.util.Optional;
 /**
  * Created by Matthias Skou 30/11/2018
  */
-//Testghghg
+//Test
 
 @Controller
 public class CompanyController {
