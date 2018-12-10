@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8468ce72-361e-42fa-a719-bf0ed923066b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Bilag/Arbejdsplan SWD 3 sem eksamen.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Bilag/Arbejdsplan SWD 3 sem eksamen.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Rapport/Rapport v1.2.2.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../Rapport/Rapport v1.2.2.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="8468ce72-361e-42fa-a719-bf0ed923066b" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -520,12 +516,12 @@
       <workItem from="1543950548215" duration="1401000" />
       <workItem from="1544018179147" duration="597000" />
       <workItem from="1544033205396" duration="148000" />
-      <workItem from="1544396123350" duration="2904000" />
+      <workItem from="1544396123350" duration="3182000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="79447000" />
+    <option name="totallyTimeSpent" value="79725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="54" y="-8" width="1874" height="1096" extended-state="7" />

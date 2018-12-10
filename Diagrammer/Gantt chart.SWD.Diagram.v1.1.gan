@@ -55,15 +55,18 @@
         <task id="31" name="Login der adskiller brugere" color="#8cb6ce" meeting="false" start="2018-12-05" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
         <task id="32" name="Kundetabel i database" color="#8cb6ce" meeting="false" start="2018-12-05" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
         <task id="35" name="Underside til kundebetalingsinformation" color="#8cb6ce" meeting="false" start="2018-12-05" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
-        <task id="37" name="Underside til kundedata" color="#8cb6ce" meeting="false" start="2018-12-06" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
+        <task id="37" name="Underside til kundedata" color="#8cb6ce" meeting="false" start="2018-12-05" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
             <depend id="46" type="2" difference="0" hardness="Rubber"/>
             <depend id="49" type="2" difference="0" hardness="Rubber"/>
         </task>
-        <task id="39" name="Underside til kategorier" color="#8cb6ce" meeting="false" start="2018-12-06" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
-        <task id="46" name="Gem-funktion for kunde" color="#8cb6ce" meeting="false" start="2018-12-07" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
+        <task id="39" name="Underside til kategorier" color="#8cb6ce" meeting="false" start="2018-12-05" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
+        <task id="46" name="Gem-funktion for kunde" color="#8cb6ce" meeting="false" start="2018-12-06" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Denne task blev færdiggjort d. 5/12, men er placeret d. 6/12 da der er dependency og programmet ikke tillader dependency på samme dato.]]></notes>
             <depend id="58" type="2" difference="0" hardness="Rubber"/>
         </task>
-        <task id="49" name="Redigéringsfunktion for kundeinfo" color="#8cb6ce" meeting="false" start="2018-12-07" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true"/>
+        <task id="49" name="Redigéringsfunktion for kundeinfo" color="#8cb6ce" meeting="false" start="2018-12-06" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Denne task blev færdiggjort d. 5/12, men er placeret d. 6/12 da der er dependency og programmet ikke tillader dependency på samme dato.]]></notes>
+        </task>
         <task id="51" name="Underside til oprettelse af tilbud og knytte billede dertil" color="#8cb6ce" meeting="false" start="2018-12-11" duration="1" complete="0" thirdDate="2018-11-23" thirdDate-constraint="0" expand="true">
             <depend id="72" type="2" difference="0" hardness="Rubber"/>
         </task>
